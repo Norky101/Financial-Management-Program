@@ -1,10 +1,7 @@
-/* your name: Noah Pilkington (A)
-COP1334 - Spring 2019 - TR 8:50AM
-Due Date: April, 25 2022
 
- Final Project- see read me for login details
-*/
 
+
+// user == Y and pass == N
 
 #include<iostream>
 #include <fstream>
