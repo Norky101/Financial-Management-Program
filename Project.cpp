@@ -26,7 +26,7 @@ double fd, he, ut, ho, le, tr, ed, finalIncome;
 double result[7]= {fd, he, ut, ho, le, tr, ed};
 
 
-void login () //logins in regardless of result NOT WORKING
+void login () //TBC
     {
 
         string username = "";
@@ -55,7 +55,7 @@ void login () //logins in regardless of result NOT WORKING
 
     }
 
-void menu ()   //gets stuck when a none valid value is entered
+void menu ()  
     {
         do
         {
@@ -117,7 +117,8 @@ void menu ()   //gets stuck when a none valid value is entered
         } while (choice != '6'); // loops program back to menu
     } //end of menu
 
-void compoundInterest() // Complete
+
+void compoundInterest() 
     {
         float principle, rate, time, perctRate, finalBalance,finalBalanceTwo, final, totInterest;
 
